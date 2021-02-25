@@ -72,11 +72,11 @@ include_once("includes/config.php");
                         $query = mysqli_query($sql, "SELECT * FROM tbl_articles");
                         while($row = mysqli_fetch_assoc($query))
                         {
-                          $title = $row["title"];
-                          $content = $row["content"];
+                          $title = $row['title'];
+                          $content = $row['content'];
                         }?>
                         <h1><?php echo $title; ?></h1>
-                        <p><?php echo $content; ?></p>  
+                        <p><?php echo $content; ?></p>
                         <h1>Simple App that we <em>CREATE</em></h1>
                         <p>Lava <a href="#">HTML landing page</a> template is provided by <a href="#">TemplateMo</a>.
                            You can modify and use it for your commercial websites for free of charge. This template is last updated on 29 Oct 2019.</p>
