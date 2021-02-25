@@ -8,12 +8,12 @@ if(isset($_POST['save']))
 	 $email = $_POST['email'];
 	 $sql = "INSERT INTO employee (first_name,last_name,city_name,email)
 	 VALUES ('$first_name','$last_name','$city_name','$email')";
-	 if (mysqli_query($sql)) {
+	 if (mysqli_query($conn, $sql)) {
 		echo "New record created successfully !";
 	 } else {
 		echo "Error: " . $sql . "
-" . mysqli_error($sql);
+" . mysqli_error($conn);
 	 }
-	 mysqli_close($sql);
+	 mysqli_close($conn);
 }
 ?>
