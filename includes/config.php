@@ -1,12 +1,23 @@
 <?php
 //Database connection
 
-$host = "localhost";
-$username = "root";
-$password = "";
-$database = "testingSQL";
+$servername='localhost';
+$username='root';
+$password='';
+$dbname = "testingSQL";
+$conn=mysqli_connect($servername,$username,$password,"$dbname");
+if(!$conn){
+   die('Could not Connect My Sql:' .mysql_error());
+}
 
-$sql = mysqli_connect($host, $username, $password, $database) or die('Could not connect');
+
+
+
+
+
+
+
+
 
 
 
