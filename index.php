@@ -71,7 +71,7 @@ include_once("includes/config.php");
                         <h1><?php echo $title; ?></h1>
                         <p><?php echo $content; ?></p>
 <!-- My cool form -->
-                        <form method="post" action="process.php">
+                        <form id="myForm" method="post" action="process.php">
                       		First name:<br>
                       		<input type="text" name="first_name">
                       		<br>
