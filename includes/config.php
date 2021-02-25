@@ -12,7 +12,7 @@ if(!$conn){
 
 
 //Select specific columns from DB
-$conn = mysqli_query($sql, "SELECT * FROM tbl_articles");
+$query = mysqli_query($conn, "SELECT * FROM tbl_articles");
 while($row = mysqli_fetch_assoc($query))
 {
   $title = $row['title'];
