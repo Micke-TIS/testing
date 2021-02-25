@@ -1,5 +1,3 @@
-<?php
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,4 +29,3 @@ https://templatemo.com/tm-540-lava-landing-page
     <link rel="stylesheet" href="assets/css/owl-carousel.css">
 
 </head>
-?>
