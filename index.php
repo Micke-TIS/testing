@@ -1,5 +1,8 @@
-<?php includes('includes/header.php'); ?>
+<?php
 
+includes('includes/header.php');
+
+?>
 
 <body>
 
