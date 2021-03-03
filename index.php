@@ -70,9 +70,11 @@
                 <div class="row">
                     <div class="left-text col-lg-6 col-md-12 col-sm-12 col-xs-12"
                         data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+
+                        <!-- Some Cool dynamic code from database -->
                         <h1><?php echo $title; ?></h1>
                         <p><?php echo $content; ?></p>
-<!-- My cool form -->
+                        <!-- My cool form -->
                         <form id="myForm" method="post" action="process.php">
                       		First name:<br>
                       		<input type="text" name="first_name">
