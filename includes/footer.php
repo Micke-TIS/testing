@@ -1,4 +1,4 @@
-<!-- ***** Footer Start ***** -->
+<!-- ***** Footer Start and testing ***** -->
 <footer id="contact-us">
     <div class="container">
         <div class="footer-content">
